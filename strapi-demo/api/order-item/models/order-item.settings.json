@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_items",
+  "info": {
+    "name": "OrderItem"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "gift": {
+      "model": "gift"
+    },
+    "GiftSent": {
+      "type": "decimal"
+    },
+    "GiftReceieve": {
+      "type": "integer"
+    }
+  }
+}

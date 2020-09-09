@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gift-states",
+      "handler": "gift-states.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gift-states/count",
+      "handler": "gift-states.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gift-states/:id",
+      "handler": "gift-states.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gift-states",
+      "handler": "gift-states.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gift-states/:id",
+      "handler": "gift-states.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gift-states/:id",
+      "handler": "gift-states.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

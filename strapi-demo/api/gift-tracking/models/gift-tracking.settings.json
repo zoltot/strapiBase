@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gift_trackings",
+  "info": {
+    "name": "GiftTracking"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "gift": {
+      "model": "gift"
+    },
+    "giftSentTo": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

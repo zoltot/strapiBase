@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gift-calanders",
+      "handler": "gift-calander.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gift-calanders/count",
+      "handler": "gift-calander.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gift-calanders/:id",
+      "handler": "gift-calander.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gift-calanders",
+      "handler": "gift-calander.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gift-calanders/:id",
+      "handler": "gift-calander.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gift-calanders/:id",
+      "handler": "gift-calander.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

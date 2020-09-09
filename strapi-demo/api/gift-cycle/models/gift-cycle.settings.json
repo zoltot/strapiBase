@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gift_cycles",
+  "info": {
+    "name": "giftCycle"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "GiftRotationStatus": {
+      "type": "json"
+    },
+    "giftRotationId": {
+      "type": "uid"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gifts",
+  "info": {
+    "name": "Gift"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "GiftCycleNumber": {
+      "type": "string",
+      "maxLength": 10
+    },
+    "GiftDate": {
+      "type": "datetime"
+    },
+    "GiftAmount": {
+      "type": "decimal"
+    },
+    "GiftTime": {
+      "type": "time"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

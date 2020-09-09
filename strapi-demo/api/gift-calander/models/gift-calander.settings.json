@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gift_calanders",
+  "info": {
+    "name": "GiftCalander"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "gift": {
+      "model": "gift"
+    },
+    "WhenToReceive": {
+      "type": "datetime"
+    },
+    "WhenToSend": {
+      "type": "datetime"
+    }
+  }
+}

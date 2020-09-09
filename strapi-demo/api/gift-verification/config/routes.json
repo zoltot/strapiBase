@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gift-verifications",
+      "handler": "gift-verification.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gift-verifications/count",
+      "handler": "gift-verification.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gift-verifications/:id",
+      "handler": "gift-verification.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gift-verifications",
+      "handler": "gift-verification.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gift-verifications/:id",
+      "handler": "gift-verification.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gift-verifications/:id",
+      "handler": "gift-verification.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

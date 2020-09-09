@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gift_to_waters",
+  "info": {
+    "name": "GiftToWater"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "gift1": {
+      "model": "gift"
+    },
+    "gift2": {
+      "model": "gift"
+    },
+    "giftingMethod": {
+      "type": "string"
+    }
+  }
+}

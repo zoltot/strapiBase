@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gift-trackings",
+      "handler": "gift-tracking.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gift-trackings/count",
+      "handler": "gift-tracking.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gift-trackings/:id",
+      "handler": "gift-tracking.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gift-trackings",
+      "handler": "gift-tracking.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gift-trackings/:id",
+      "handler": "gift-tracking.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gift-trackings/:id",
+      "handler": "gift-tracking.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

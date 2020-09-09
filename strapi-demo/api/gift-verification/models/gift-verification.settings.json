@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gift_verifications",
+  "info": {
+    "name": "GiftVerification"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "uploadScreenshot": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "giftWasSent": {
+      "type": "boolean"
+    },
+    "giftWasReceieved": {
+      "type": "boolean"
+    }
+  }
+}

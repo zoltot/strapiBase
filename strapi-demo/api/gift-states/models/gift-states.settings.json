@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gift_states",
+  "info": {
+    "name": "GiftStates"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "positionWater": {
+      "type": "json"
+    },
+    "positionEarth": {
+      "type": "json"
+    },
+    "positionAir": {
+      "type": "json"
+    },
+    "positionFire": {
+      "type": "json"
+    }
+  }
+}

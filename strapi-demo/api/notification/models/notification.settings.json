@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "name": "Notification"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "gift": {
+      "model": "gift"
+    },
+    "giftMater": {
+      "type": "string"
+    }
+  }
+}

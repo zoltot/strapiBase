@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gift-to-waters",
+      "handler": "gift-to-water.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gift-to-waters/count",
+      "handler": "gift-to-water.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gift-to-waters/:id",
+      "handler": "gift-to-water.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gift-to-waters",
+      "handler": "gift-to-water.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gift-to-waters/:id",
+      "handler": "gift-to-water.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gift-to-waters/:id",
+      "handler": "gift-to-water.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
